@@ -12,7 +12,7 @@ if (isset($_POST['predpona'])){
             die("Connection failed: " . $conn->connect_error);
         }
 
-        $sql = "INSERT INTO aktivnost (cas, predpona)
+        $sql = "INSERT INTO $tablename (cas, predpona)
         VALUES ( '$cas', '$predpona')";
         /*$sql = "INSERT INTO aktivnost (cas, predpona)
                 VALUES ( NOW(), $predpona)";*/

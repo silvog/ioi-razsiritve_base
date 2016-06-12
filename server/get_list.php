@@ -9,7 +9,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT cas, predpona FROM aktivnost";
+$sql = "SELECT cas, predpona FROM $tablename";
 $result = $conn->query($sql);
 $datoteke = array();
 if ($result->num_rows > 0) {
