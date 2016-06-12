@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     $levaTap = $('#levaTapiserija').imgAreaSelect({
         instance: true,
-        aspectRatio: '4:3',
+        aspectRatio: '3:3',
         handles: true,
         maxWidth: 120,
         maxHeight: 120,
@@ -91,7 +91,7 @@ $(document).ready(function () {
 
     $desnaTap = $('#desnaTapiserija').imgAreaSelect({
         instance: true,
-        aspectRatio: '4:3',
+        aspectRatio: '3:3',
         handles: true,
         maxWidth: 120,
         maxHeight: 120,
@@ -190,7 +190,7 @@ function clearTapiserijaSelection() {
 
 function firstClickLeft() {
     if (firstClickLeftVar) {
-        $levaTap.setSelection(50, 50, 150, 125, true);
+        $levaTap.setSelection(50, 50, 150, 150, true);
         $levaTap.setOptions({show: true});
         $levaTap.update();
         firstClickLeftVar = false;
@@ -199,7 +199,7 @@ function firstClickLeft() {
 
 function firstClickRight() {
     if (firstClickRightVar) {
-        $desnaTap.setSelection(50, 50, 150, 125, true);
+        $desnaTap.setSelection(50, 50, 150, 150, true);
         $desnaTap.setOptions({show: true});
         $desnaTap.update();
         firstClickRightVar = false;
