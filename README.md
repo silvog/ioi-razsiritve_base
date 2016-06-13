@@ -47,7 +47,7 @@ V zadnjem koraku aplikacije se izvede koda skripte **js/excerptNamingPlaylist.js
 seznam shranjenih datotek. Predponi imena datoteke, ki se prebere iz podatkovne baze, pripnemo
 **_user** in dobimo popolno ime datoteke - slike uporabika, ki je shranjena v datoteki **razsiritve_uploads**. Sama predpona
 se uporabi za branje audio datoteke - izjava uporabika. Izbrana odseka dobimo tako, da predponi dodamo **_left** oziroma **_right**. 
-Slika uporabika skupaj z izbranimi odseki se prikaže skupaj na pogledu do prikaza naslednjega vnosa.
+Slika uporabika skupaj z izbranimi odseki se prikaže na pogledu do prikaza naslednjega vnosa.
 
 ###Namestitev
 Pri implementaciji projekta smo si pomagali s paketom [XAMPP - strežnik Apache in PHP](https://www.apachefriends.org/index.html).
